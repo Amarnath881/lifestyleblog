@@ -1,0 +1,416 @@
+.App{
+  width:100%;
+  min-height : 650px;
+}
+
+.navbar_header{
+  width:100%;
+  height:60px;
+  background-color:aqua;
+}
+
+footer{
+  width:100%;
+  padding:20px 0px;
+  height:120px;
+  background-color:aqua;
+}
+
+.copy{
+  text-align:center;
+  font-weight:800;
+}
+
+.home_content{
+  width:100%;
+  min-height: 600px;
+  background-color: #f2f2f2;
+}
+
+.slider{
+  width:100%;
+  height:350px;
+}
+
+.about_cont{
+  width:100%;
+  height:350px;
+}
+
+.about_img{
+  width:100%;
+  height:350px;
+}
+
+.menu_list{
+  display:flex;
+  width:100%;
+}
+
+.menu_list a{
+  margin:10px 15px;
+  text-decoration: none;
+}
+
+.card{
+  margin:10px 0px;
+  border-radius: 10px;
+  overflow:hidden;
+  height:300px;
+  background-color:#cedadb;
+}
+
+.card h1{
+  padding:25px 10px;
+  font-size:20px;
+  font-weight:800;
+}
+
+.card p{
+  padding : 15px;
+}
+
+.home_content{
+  padding-top:40px;
+}
+
+.blogview{
+  width:100%;
+  padding:20px;
+  background-color: rgb(8, 82, 107);
+  margin : 50px 0px;
+}
+
+.blogview h1{
+  font-size: 22px;
+  font-weight : 800;
+  letter-spacing: 1;
+  padding : 10px 0px;
+}
+
+.imgview{
+  width : 100%;
+  height : 500px;
+}
+.about_header{
+  width:100%;
+  height:80px;
+  padding :18px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  text-align:center;
+  font-weight:800;
+  background-color:rgba(255, 173, 173, 0);
+}
+.copy{
+  text-align:center;
+  font-weight:800;
+}
+.about_slider{
+  width:100%;
+  height:500px;
+  background-image: url(../src/assets/image/mom&daughter.jpg);
+  background-size: cover ;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  display:flex
+}
+.about_slider p1{
+  margin:10px 3px;
+  padding:10px;
+  font-size:40px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
+.about_slider p2{
+  margin:10px 3px;
+  padding:10px;
+  font-size:40px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family:serif;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
+.about_preheader{
+  width:100%;
+  height:200px;
+  background-color:cornsilk;
+  display:flex;
+}
+.about_preheader p{
+  margin:10px 3px;
+  padding:10px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+.features1{
+  width:100%;
+  height:230px;
+  margin:10px;
+  display:flex;
+}
+
+.feature_colm1{
+  margin:22px auto;
+  width:25%;
+  height:200px;
+  background-image: url(../src/assets/image/mother1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+  
+}
+
+.feature_colm2{
+  margin:22px auto;
+  width:25%;
+  height:200px;
+  background-image: url(../src/assets/image/mother5.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+}
+
+.feature_colm3{
+  margin:22px auto;
+  width:25%;
+  height:200px;
+  background-image: url(../src/assets/image/mother6.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+  
+}
+
+.feature_colm4{
+  margin:22px auto;
+  width:25%;
+  height:200px;
+  background-image: url(../src/assets/image/mother2.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+  
+}
+
+
+.feature_colm5{
+  margin:22px auto;
+  width:25%;
+  height:200px;
+  background-image: url(../src/assets/image/mother3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+  
+}
+
+
+.feature_colm6{
+  margin:22px auto;
+  width:25%;
+  height:200px;
+  background-image: url(../src/assets/image/mother4.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+  
+}
+
+.feature_colm7{
+  margin:22px auto;
+  width:25%;
+  height:300px;
+  background-image: url(../src/assets/image/mother1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+}
+
+.feature_colm7 p{
+  margin:10px 3px;
+  padding:160px 50px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
+.feature_colm8{
+  margin:22px auto;
+  width:25%;
+  height:300px;
+  background-image: url(../src/assets/image/mother2.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+}
+
+.feature_colm8 p{
+  margin:10px 3px;
+  padding:160px 50px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
+.feature_colm9{
+  margin:22px auto;
+  width:25%;
+  height:300px;
+  background-image: url(../src/assets/image/mother3.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+}
+.feature_colm9 p{
+  margin:10px 3px;
+  padding:160px 50px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+} 
+
+.features2{
+  width:100%;
+  height:350px;
+  margin:10px;
+  display:flex;
+}
+
+.features3{
+  width:100%;
+  height:400px;
+  margin:10px;
+  display:flex;
+}
+
+
+.feature_colm10{
+  margin:22px auto;
+  width:25%;
+  height:300px;
+  background-image: url(../src/assets/image/mother4.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+}
+.feature_colm10 p{
+  margin:10px 3px;
+  padding:160px 50px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
+.feature_colm11{
+  margin:22px auto;
+  width:25%;
+  height:300px;
+  background-image: url(../src/assets/image/mother5.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+}
+.feature_colm11 p{
+  margin:10px 3px;
+  padding:160px 50px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
+.feature_colm12{
+  margin:22px auto;
+  width:25%;
+  height:300px;
+  background-image: url(../src/assets/image/mother6.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+}
+.feature_colm12 p{
+  margin:10px 3px;
+   padding:160px 50px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+} 
+
+
+.about_slider2{
+  width:100%;
+  height:500px;
+  background-image: url(../src/assets/image/mother\ and\ son.jpg);
+  background-size: cover ;
+  background-repeat:no-repeat;
+  display:flex
+}
+
+.about_slider2 p3{
+  margin:10px 3px;
+  padding:10px;
+  font-size:40px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
+.header1{
+  width:100%;
+  height:950px;
+  background-color: rgba(243, 208, 161, 0.308);
+  display:flex
+}
+.header1 p{
+  margin:10px 3px;
+  padding:10px;
+  font-size:16px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family:serif;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+}
+
